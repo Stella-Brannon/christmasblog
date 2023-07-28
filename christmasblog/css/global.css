@@ -1,11 +1,16 @@
 img,embed,object,video{
     max-width: 100%;
 }
+ul {
+    text-decoration: none;
+    }
+
+li {
+    list-style-type: none;}
 
 body {
     margin: 0;
     padding: 0;
-    
     background-color: aqua;
 }
 

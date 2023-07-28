@@ -1,4 +1,8 @@
 .header {
-    background-image: url("/christmasblog/christmasblog/images/candycane.jpg");
-    background-size: cover;
+
+    background-image: url("../images/candycane.jpg");
+    background-size: 100% cover;
+    
+    
+
 }
