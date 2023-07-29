@@ -1,0 +1,14 @@
+.header {
+    background-image: url("../images/menupic.jpg");
+    background-image: url("../images/menupic.jpg");
+    background-size: 30%, 30%;
+    background-position: 0 center, right center;
+    background-repeat: no-repeat, no-repeat;
+    background-color: forestgreen;
+    height: 120px;
+    /*padding: 0 10px;*/
+    
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    
+}
