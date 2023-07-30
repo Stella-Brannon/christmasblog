@@ -1,7 +1,7 @@
 img,embed,object,video{
     max-width: 100%;
 }
-ul,li {
+ul,li,a {
     text-decoration: none;
     list-style-type: none;
     padding: 0;
@@ -12,7 +12,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(150, 240, 156);
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:link {color: #3F2860;}
+a:visited {color: #497777;}
+a:hover {color: #A26100;border: 3px inset #333333;
 }
 
 

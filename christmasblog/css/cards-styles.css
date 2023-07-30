@@ -1,13 +1,51 @@
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 150px auto auto auto auto 50px;
+    grid-template-columns: repeat(10, 10%);
+    gap: 10px 5px;
+
+}
 .header {
+    grid-column: 1/11;
+    grid-row: 1/2;
     background-image: url("../images/ornaments.jpg");
-    background-size: contain, 30%;
+    background-size: contain;
     background-position: 0 center;
     background-repeat: no-repeat;
     background-color: rgb(5, 135, 5);
     height: 120px;
-    /*padding: 0 10px;*/
-    
     text-align: center;
     border:2px solid #000000;
     
+}
+.nav{
+    grid-column: 1/11;
+    grid-row: 2/3;
+}
+.aside {
+    grid-column: 1/11;
+    grid-row: 3/4;
+}
+.article {
+
+        grid-column: 1/11;
+        grid-row: 4/7;
+        background-image: url("../images/giftwrap.jpg");
+        background-size: cover;
+        background-position: 0 center;
+        background-repeat: no-repeat;
+       
+}
+#nested_grid {
+    display: grid;
+    grid-template-rows:  repeat(6,10%);
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    grid-row-gap: 5px;
+}
+
+.footer{
+    grid-area: 7/1/8/11;
 }

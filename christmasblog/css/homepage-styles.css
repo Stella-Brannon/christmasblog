@@ -1,6 +1,12 @@
 
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 150px auto auto auto auto 100px;
+    grid-template-columns: repeat(10, 10%);
+
+}
 .header {
-    display: flexbox;
     background-image: url("../images/candycane.jpg");
     background-size: 100% auto;
     background-position: center;
@@ -9,5 +15,33 @@
     background-repeat: repeat-x;
     text-align: center;
     border-bottom: 2px solid #000000;
+    grid-column: 1/11;
+    grid-row: 1/2;
+}
+
+.navigation{
+    grid-column: 1/11;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.sidebar{
+    grid-column: 1/11;
+    grid-row: 3/5;
+}
+
+.landingpage{
+    grid-column: 1/11;
+    grid-row: 5/7;
 
 }
+
+.footer{
+grid-column: 1/11;
+grid-row: 7/8;
+}
+
