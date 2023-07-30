@@ -1,0 +1,13 @@
+.header {
+    background-image: url("../images/ornaments.jpg");
+    background-size: contain, 30%;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-color: rgb(5, 135, 5);
+    height: 120px;
+    /*padding: 0 10px;*/
+    
+    text-align: center;
+    border:2px solid #000000;
+    
+}

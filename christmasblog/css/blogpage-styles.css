@@ -1,14 +1,51 @@
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 150px  auto auto auto 100px;
+    grid-template-columns: repeat(10, 10%);
+    gap: 10px 15px;
+}
 .header {
+    grid-column: 1/11;
+    grid-row: 1/2;
     background-image: url("../images/menupic.jpg");
-    background-image: url("../images/menupic.jpg");
-    background-size: 30%, 30%;
-    background-position: 0 center, right center;
-    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    background-position: 0 center;
+    background-repeat: no-repeat;
     background-color: forestgreen;
-    height: 120px;
-    /*padding: 0 10px;*/
-    
+    /*padding: 0 20px;
+    */
     text-align: center;
-    border-bottom: 2px solid #000000;
-    
+    border: 2px solid #000000;
+}
+
+.navigation {
+    grid-column: 1/11;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.article {
+grid-column: 1/11;
+grid-row: 3/6;
+gap: 5px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+background-color: #ccc;
+
+}
+
+img {
+    width: 30%;
+
+}
+
+.footer {
+    grid-column: 1/11;
+    grid-row: 6/7;
 }
