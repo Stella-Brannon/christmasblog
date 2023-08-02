@@ -1,21 +1,35 @@
-img,embed,object,video{
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
-ul,li,a {
+
+ul,
+li,
+a {
     text-decoration: none;
     list-style-type: none;
     padding: 0;
-	margin: 0;
+    margin: 0;
 }
 
 body {
-    margin:5%;
+    margin: 5%;
     padding: 0;
     background-color: rgb(150, 240, 156);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-a:link {color: #602e28;}
-a:visited {color: #0fcfcf;}
-a:hover {color: #075821; border: 5px inset #fdfcfc;}
 
+a:link {
+    color: #602e28;
+}
 
+a:visited {
+    color: #0fcfcf;
+}
+
+a:hover {
+    color: #075821;
+    border: 5px inset #fdfcfc;
+}

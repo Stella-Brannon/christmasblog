@@ -1,37 +1,20 @@
+@media screen and (min-width:600px) {
 
- @media screen and (min-width:600px) {
- .grid-container {
-    display: grid;
-    grid-template-rows: 150px auto auto auto auto 100px;
-    grid-template-columns: repeat(10, 10%);
-}
-    .sidebar{
-        grid-column: 1/4;
-        grid-row: 3/7;
-
-    }
-
-    .landingpage{
-        grid-column: 4/11;
-        grid-row: 3/7;
-
-    }
-
-    .footer ul{
+    .footer ul {
         grid-column: 1/11;
         grid-row: 7/8;
         display: flex;
         flex-direction: row;
-        flex-wrap:nowrap;
+        flex-wrap: nowrap;
         gap: 5px;
-        justify-content: space-between;
+        justify-content: space-around;
 
     }
 
-    .navigation ul{
+    .navigation ul {
         display: flex;
         flex-direction: row;
-        flex-wrap:nowrap;
+        flex-wrap: nowrap;
         gap: 5px;
         justify-content: space-between;
     }
@@ -39,29 +22,30 @@
 
 @media screen and (max-width:599px) {
 
-   .navigation ul{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 5px;
-    justify-content: space-between;
-   }
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: space-between;
+    }
 
-   .footer ul{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 5px;
-    justify-content: space-between;
-   }
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: space-between;
+    }
 }
 
 .grid-container {
     display: grid;
-    grid-template-rows: 150px auto auto auto auto 100px;
+    grid-template-rows: 150px auto auto auto auto auto 100px;
     grid-template-columns: repeat(10, 10%);
 
 }
+
 .header {
     background-image: url("../images/candycane.jpg");
     background-size: 100% auto;
@@ -75,31 +59,32 @@
     grid-row: 1/2;
 }
 
-.navigation{
+.navigation {
     grid-column: 1/11;
     grid-row: 2/3;
-    
+
 }
-.navigation li{
+
+.navigation li {
     border: 3px solid #046613;
-    border-radius: 2%;
     text-align: center;
+    padding: 0.5rem;
 }
 
-.sidebar{
+
+.sidebar {
+    grid-column: 1/4;
+    grid-row: 3/7;
+
+}
+
+.landingpage {
+    grid-column: 4/11;
+    grid-row: 3/7;
+
+}
+
+.footer {
     grid-column: 1/11;
-    grid-row: 3/5;
+    grid-row: 7/8;
 }
-
-.landingpage{
-    grid-column: 1/11;
-    grid-row: 5/7;
-
-}
-
-.footer{
-grid-column: 1/11;
-grid-row: 7/8;
-}
-
-
