@@ -11,7 +11,7 @@
 
     }
 
-    .navigation ul {
+    .nav ul {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
