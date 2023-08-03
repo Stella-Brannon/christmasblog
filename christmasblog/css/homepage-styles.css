@@ -47,7 +47,7 @@
 }
 
 .header {
-    background-image: url("../images/candycane.jpg");
+    background-image: url("../assets/candycane.jpg");
     background-size: 100% auto;
     background-position: center;
     height: 120px;
@@ -77,6 +77,15 @@
     grid-row: 3/7;
 
 }
+.subscribe {
+    
+        background-color: #4CAF50;
+        font-size: 16px;
+}
+#twitter {
+ width: 20%;
+}
+
 
 .landingpage {
     grid-column: 4/11;

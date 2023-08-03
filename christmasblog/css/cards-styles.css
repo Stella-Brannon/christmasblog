@@ -47,10 +47,10 @@
 
 }
 
-.header {
+header {
     grid-column: 1/11;
     grid-row: 1/2;
-    background-image: url("../images/ornaments.jpg");
+    background-image: url("../assets/ornaments.jpg");
     background-size: contain;
     background-position: 0 center;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@
 
     grid-column: 4/11;
     grid-row: 3/7;
-    background-image: url("../images/giftwrap.jpg");
+    background-image: url("../assets/giftwrap.jpg");
     background-size: cover;
     background-position: 0 center;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@
 
 }
 
-#nested_grid {
+#nested-grid {
 
     display: grid;
     grid-template-rows: repeat(4, 25%);
