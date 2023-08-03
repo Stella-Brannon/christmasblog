@@ -1,4 +1,6 @@
-@media screen and (min-width:600px) {
+/* Commenting out to test @import of main.css */
+
+/*@media screen and (min-width:600px) {
 
     .footer ul {
         grid-column: 1/11;
@@ -39,6 +41,7 @@
         justify-content: space-between;
     }
 }
+*/
 
 .grid-container {
     display: grid;
