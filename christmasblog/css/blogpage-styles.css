@@ -64,7 +64,15 @@ header {
 }
 
 img {
-    width: 50%;
+    width: 100%;
+}
+
+.fig-caption {
+    font-style: oblique;
+    color: #03330e;
+    font-size: 2vh;
+    text-align: left;
+
 }
 
 .blogtext {
@@ -73,9 +81,13 @@ img {
 
 }
 
-.blogtext p {
+.blogtext h3 {
+    text-align: center;
+}
 
-    font-style: italic;
+.authorinfo img {
+    width: 14px;
+
 }
 
 .footer {
